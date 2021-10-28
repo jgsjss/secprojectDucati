@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>반응형 웹페이지 프로젝트</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <link
+            rel='stylesheet'
+            type='text/css'
+            media='screen'
+            href='css/bootstrap.min.css'>
+        <script src='js/main.js'></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                    <a
+                        href="main.html"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                        <span class="fs-4">Ducati Motorcycles</span>
+                    </a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#section1" class="nav-link active" aria-current="page">대표 모델</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section2" class="nav-link">회사 소개</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section3" class="nav-link">오시는길</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section4" class="nav-link">담당자 연락처</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section5" class="nav-link">프로모션</a>
+                        </li>
+                    </ul>
+                </header>
+            </div>
+        </header>
+
+        <!-- 본문 영역 -->
+       
+        <div class="section-content">
+        <section id="section1">
+            <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" id="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="img/panigale2.jpg"
+                            class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Panigale v2</h2>
+                            <p>The Red Essence</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/xdiavel2.jpg"
+                            class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Xdiavel</h2>
+                            <p>The Power of Opposites</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/1100-Sport-PRO.jpg"
+                            class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 style="color: white;">Scrambler 1100-Sport-PRO</h2>
+                            <p>Act the Joyvolution!</p>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    id="carousel-control-prev"
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    id="carousel-control-next"
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="container">
+                <div class="content-wrapper text-center">
+                    <div class="content">
+                        <h3>회사 소개</h3>
+                        <p>두카티 코리아는 이탈리아 Ducati Motor Holding S.p.A의 한국 내 공식 수입원(모토로싸 MOTO ROSSA)으로 2014년 새롭게 출발하였으며 올해로 7주년을 맞이하였습니다.</p>
+                            <p>두카티 코리아는 두카티 모터사이클을 누구나, 보다 쉽게 체험하고 즐길 수 있도록 2015년부터 트랙데이 & PP컵, 엔듀로 행사, 스크램블러 데이즈 등 다양한 행사를 개최하고 있습니다.</p>
+                            <p>두카티 코리아는 서울, 분당, 대구, 부산에 공식 딜러를 운영하고 있으며, 언제나 고객과 모터사이클이 함께 할 수 있는 다양한 이벤트, 최고의 제품에 걸맞은 세심한 서비스로 고객 만족을 위해 최선을 다하겠습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <div class="content-wrapper text-center">
+                    <div class="content">
+                        <h3>본사 및 서울점 안내</h3>
+                        <p>위치 : 서울특별시 성동구 천호대로 372(용답동, 대호빌딩) 04808 모토 로싸</p>
+                        <p>대표번호 : 02-544-1946 Fax : 02-517-1926</p>
+                        <p>영업시간 안내 : 월요일~토요일 오전 9:00 ~ 오후 6:00</p>
+                        <img class="photo" src="./img/naver_map.png" alt="네이버 지도" >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="container">
+                <div class="content-wrapper text-center">
+                    <div class="content">
+                        <h3>담당자별 직통 번호 안내</h3>
+                        <p>모터사이클(Motorcycle): 070-7461-1193</p>
+                        <p>어패럴(Apparel): 070-7461-1200</p>
+                        <p>기술지원(Service): 070-7461-1191</p>
+                        <p>인사, 경영지원 (General affairs, Human resources): 070-7461-1194</p>
+                        <p>부품(Parts) : 070-7461-1187</p>
+                        <p>마케팅(Marketing) : 070-7461-1195</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section5">
+            <div class="container">
+                <div class="content-wrapper text-center">
+                    <div class="content">
+                        <h1>8월, 두카티와 함께 모터사이클을 시작해 보세요!</h1>
+                        <h4><a href="https://www.ducati-korea.com/company/notice.php?boardid=notice&mode=view&idx=17&sk=&sw=&offset=&category=">
+                            60개월 할부이자 지원부터 EVER RED 보증 연장 프로그램, 그리고 DUCATI SRS팀 송규현 선수의 라이딩 스쿨 참가지원까지, 
+                            8월의 특별한 프로모션! </a></h4>
+                            <h4><a href="https://www.ducati-korea.com/company/notice.php?boardid=notice&mode=view&idx=17&sk=&sw=&offset=&category=">
+                            클릭하시면 프로모션 페이지로 이동합니다!</a></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <!-- 푸터 영역 -->
+        <footer>
+            <div class="container text-center">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2 text-muted">TOP</a>
+                    </li>
+                    </ul>
+                <p class="text-center text-muted">&copy; DUCATI KOREA   대표자 : 김은석   사업자등록번호 : 261-81-05666</p>
+            </div>
+        </footer>
+    </body>
+</html>
